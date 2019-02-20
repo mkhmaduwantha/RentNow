@@ -24,13 +24,17 @@
 </body>
 </html> -->
 <?php
-echo "<div>
-		<form action='signIn.php' method = 'post' enctype='multipart/form-data'>
-				<label>User name</label>
-				<input type = 'text' name='user_name' id = 'user_name' required><br>
-				<label>Password</label>
-				<input type='password' name ='password' id = 'password' required>
-				<button>submit</button>
-		</form>
+echo "
+<link rel='stylesheet' href='css/form.css'>
+<div align = 'center' class='loginform'>
+	<h1>Log In to your account</h1>
+	<hr>
+	<div>
+			<form  method = 'post' enctype='multipart/form-data'>
+					<input type = 'text' name='user_name' id = 'user_name' required placeholder='User Name'><br>
+					<input type='password' name ='password' id = 'password' required placeholder='Password'><br>
+					<button class= 'loginbtn'>login</button>
+			</form>
+	</div>
 </div>"
 ?>

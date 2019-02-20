@@ -13,7 +13,17 @@ function login(){
   request.onreadystatechange = function (){
     // if ((request.readyState ===4) && (request.states===200)){
       document.getElementById('contentMain').innerHTML = request.responseText;
+     
     // }
+  }
+  request.send();
+}
+function signup() {
+  var request = new XMLHttpRequest();
+  request.open('GET','signup.php');
+  request.onreadystatechange = function (){
+    document.getElementById('contentMain').innerHTML =request.responseText;
+    
   }
   request.send();
 }

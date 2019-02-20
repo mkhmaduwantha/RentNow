@@ -1,0 +1,22 @@
+.right-col{
+  width: 20%;
+  background-color: bisque;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#contentMain {
+    width: 80%;
+    height: 100%;
+    background-color: mediumturquoise;
+}
+body {
+    font-family: Arial,Georgia,"Times New Roman";
+    margin: 0px;
+}
+li {
+    margin-left: 5%;
+}
