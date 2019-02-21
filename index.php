@@ -55,5 +55,6 @@
 	</div>
 </div>
 </body>
-<script src="js/func.js"></script>
+<script src="js/func.js">
+</script>
 </html>
