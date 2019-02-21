@@ -6,6 +6,11 @@ echo
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
+    <label for="first_name"><b></b></label>
+    <input type="text" placeholder="First Name" name="first_name" required>
+    
+    <label for="last_name"><b></b></label>
+    <input type="text" placeholder="First Name" name="last_name" required>
 
     <label for="email"><b></b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
