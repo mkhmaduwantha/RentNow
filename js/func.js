@@ -23,7 +23,7 @@ function signup() {
   request.open('GET','signup.php');
   request.onreadystatechange = function (){
     document.getElementById('contentMain').innerHTML =request.responseText;
-    
+    signInit();
   }
   request.send();
 }
